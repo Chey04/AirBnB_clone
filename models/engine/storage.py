@@ -31,7 +31,6 @@ class FileStorage:
 
     def all(self):
         '''Return dictionary of <class>.<id> : object instance'''
-
         return self.__objects
 
     def new(self, obj):
